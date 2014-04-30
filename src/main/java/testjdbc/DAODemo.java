@@ -1,0 +1,21 @@
+package testjdbc;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: satin
+ * Date: 27.08.13
+ * Time: 15:37
+ * To change this template use File | Settings | File Templates.
+ */
+public class DAODemo {
+
+    public static void main(String[] args) {
+
+        DepDAO dep = new DepDAOImpl();
+
+        for(DepTest depTest:dep.getDepartments()){
+            System.out.println("DepartmentsTest!!! "+depTest.getDepatmentId()+" "+depTest.getDepartmentName());
+        }
+
+    }
+}
