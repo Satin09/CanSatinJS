@@ -6065,10 +6065,10 @@
         return Component;
     })(__m2, __m8, __m11, __m17, __m25);
 
-    // ## can/model/model.js
+    // ## can/model/departmentmodel.js
     var __m26 = (function(can) {
 
-        // ## model.js  
+        // ## departmentmodel.js
         // `can.Model`  
         // _A `can.Map` that connects to a RESTful interface._
         // Generic deferred piping function
